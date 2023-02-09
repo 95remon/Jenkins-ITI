@@ -18,7 +18,7 @@
     RUN usermod -aG docker jenkins
     ```
     ```bash
-    sudo docker build -t  custom-jenkins:v1 .
+    sudo docker build -t  custom-jenkins .
     ```
     - ![alt](images/Lab2/4-1.png)
 
