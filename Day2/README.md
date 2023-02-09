@@ -132,6 +132,9 @@
     ```bash
     sudo docker build -t jenkins-slave-image:v1 .
     ```
+    ```bash
+    sudo docker run -d --name jenkins-slave-container -it jenkins-slave-image:v1
+    ```
     open container and run
     ```bash
     ssh-keygen
