@@ -160,7 +160,7 @@
 
 5. send slack message when stage in your pipeline is successful
     add this code to the pipline 
-    ```json
+    ```groovy
     post {
         success {
             slackSend color: 'good', message: "Build succeeded! Visit ${env.BUILD_URL}"
